@@ -1,0 +1,48 @@
+/* Container services */
+.service {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Setiap kolom memiliki lebar minimum 250px */
+    gap: 20px; /* Jarak antar kartu */
+    justify-items: center; /* Menyusun item di tengah */
+    margin-top: 50px;
+  }
+  
+  /* Style untuk setiap kartu */
+  .service.card {
+    width: 100%; /* Lebar kartu 100% */
+  }
+  
+  /* Style untuk gambar pada kartu */
+/* Style untuk gambar pada kartu */
+.service .card-img-top {
+    width: 100%;
+    height: 200px; /* Tinggi gambar */
+    object-fit: cover; /* Gambar akan menutupi area gambar tanpa memperdistorsi aspek rasio */
+    border-radius: 10px 10px 0 0; /* Sudut sudut atas */
+  }
+  
+  
+  /* Style untuk body pada kartu */
+  .service .card-body {
+    padding: 20px;
+  }
+  
+  /* Style untuk judul pada kartu */
+  .service .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Style untuk teks pada kartu */
+  .service.container .card-text {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Style untuk tombol pada kartu */
+  .service .btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
